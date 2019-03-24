@@ -24,8 +24,7 @@ Główny komponent Sentence:
 - renderuje następujące komponenty:
 	- 3 x komponent <Paragraph /> w tym:
 		- 2 x komponent reprezentujący rzędy z sentencjami. Komponent pierwszy przyjmuje przez props.sentenceA pierwszą sentencję z tablicy. Komponent drugi przyjmuje przez props.sentenceB pozostałe sentencje z tablicy. Propsy te przekazane są ze state.sentenceA i state.sentenceB komponentu Sentence.
-    
-	- 1 x komponent wyświetlający informację który wariant komponentu jest renderowany. Komponent przyjmuje przez  props.variant odpowiedni wariant. Informacja ta pobrana jest ze state.option komponentu Sentence.
+		- 1 x komponent wyświetlający informację który wariant komponentu jest renderowany. Komponent przyjmuje przez  props.variant odpowiedni wariant. Informacja ta pobrana jest ze state.option komponentu Sentence.
   
   - 2 x komponent <Button /> który przyjmuje przez props.text tekst który będzie wyświetlony na przycisku oraz props.changeOption w którym przyjmuje od rodzica, czyli komponentu Sentence metodę changeOption.
   
