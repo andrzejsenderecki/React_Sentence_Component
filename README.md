@@ -2,9 +2,11 @@
 
 https://andrzejsenderecki.github.io/React_Sentence_Component/
 
-Install: npm install
-Start: npm start
-Tests: npm test
+Install: npm install<br>
+Start: npm start<br>
+Tests: npm test<br>
+
+Testy JEST/ENZYME: sentence/src/components/Sentence/sentence.component.spec.js
 
 Komponent Sentence służy to wyświetlania podanych przez props.sentences zdań, po kolei, w dwóch rzędach, litera po literze. Posiada dwa warianty wyświetlania sentencji które można przełączać za pomocą przycisków.
 
