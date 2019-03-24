@@ -8,7 +8,7 @@ Tests: npm test<br>
 
 Testy JEST/ENZYME: sentence/src/components/Sentence/sentence.component.spec.js
 
-Komponent Sentence służy to wyświetlania podanych przez props.sentences zdań, po kolei, w dwóch rzędach, litera po literze. Posiada dwa warianty wyświetlania sentencji które można przełączać za pomocą przycisków.
+Komponent Sentence pozwala na wyświetlanie podanych przez props.sentences zdań, po kolei, w dwóch rzędach, litera po literze. Posiada dwa warianty wyświetlania sentencji które można przełączać za pomocą przycisków.
 
 Pierwszy wariant wyświetla dwa rzędy z sentencjami, przy czym pierwszy rząd wyświetla pierwszą sentencję z tablicy, a drugi wyświetla pozostałe sentencje począwszy od drugiej. Kiedy komponent dojdzie do końca tablicy na ekranie pozostaje wyświetlona ostatnia sentencja.
 
